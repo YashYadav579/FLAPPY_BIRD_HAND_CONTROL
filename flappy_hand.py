@@ -96,6 +96,9 @@ def main_game(tracker): # noqa: shadowed-name
         # Draw score
         draw_text(f"Score: {score}", 40, (0, 0, 0), 80, 40)
 
+        # Draw copyright
+        draw_text("© 2025 Yash Yadav", 20, (50, 50, 50), 120, 70)
+
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 tracker.release()
