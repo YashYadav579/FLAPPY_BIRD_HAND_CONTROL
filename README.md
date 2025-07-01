@@ -31,13 +31,13 @@ It can help you learn:
 
 ```bash
 FLAPPY_BIRD_HAND_CONTROL/
-├── flappy_hand.py        # Main game file
-├── hand_tracker.py       # Hand detection logic using MediaPipe
 ├── assets/
 │   ├── bg.png            # Background image
 │   ├── bird.png          # Bird image
 │   └── pipe.png          # Pipe image
 ├── README.md             # Project documentation
+├── flappy_hand.py        # Main game file
+├── hand_tracker.py       # Hand detection logic using MediaPipe
 
 ```
 
